@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Roboto&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+	display: none;
+}
+
+body {
+	position: relative;
+	background: #000;
+	min-height: 100vh;
+}
+
+input,
+button {
+	background: none;
+	border: none;
+	outline: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+button {
+	cursor: pointer;
+}
+
+.active {
+	opacity: 1;
+	font-weight: bold;
+	color: #f5f5f5;
+}
